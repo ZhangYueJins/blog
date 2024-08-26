@@ -7,6 +7,6 @@ const isProd = process.env.NODE_ENV === 'production';
 
 export default {
   output: 'export',  // 新增这一行
-  basePath: isProd ? '/nextjs-blog' : '',
-  assetPrefix: isProd ? '/nextjs-blog/' : '',
+  basePath: isProd ? '/blog' : '',
+  assetPrefix: isProd ? '/blog/' : '',
 };
